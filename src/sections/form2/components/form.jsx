@@ -49,7 +49,7 @@ const Form = () => {
         delete modifiedData.p5_email;
 
         response = await axios.post(
-          "https://bgmiregistration.vercel.app/submit",
+          "https://valoregistration2.vercel.app/submit",
           modifiedData
         );
         console.log(modifiedData);
