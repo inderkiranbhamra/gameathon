@@ -1,0 +1,39 @@
+{
+  "teamLeader": {
+    "Name": "",
+    "TeamName": "",
+    "IGN": "",
+    "Rank": "",
+    "DiscordTag": "",
+    "ContactNo": "",
+    "MailId": ""
+  },
+  "Player2": {
+    "Name": "",
+    "IGN": "",
+    "DiscordTag": "",
+    "ContactNo": "",
+    "MailId": ""
+  },
+  "Player3": {
+    "Name": "",
+    "IGN": "",
+    "DiscordTag": "",
+    "ContactNo": "",
+    "MailId": ""
+  },
+  "Player4": {
+    "Name": "",
+    "IGN": "",
+    "DiscordTag": "",
+    "ContactNo": "",
+    "MailId": ""
+  },
+  "Player5": {
+    "Name": "",
+    "IGN": "",
+    "DiscordTag": "",
+    "ContactNo": "",
+    "MailId": ""
+  }
+}

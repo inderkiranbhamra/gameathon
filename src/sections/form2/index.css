@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || UTILITY CLASSES */
+
+.remove-button {
+  display: none;
+}
+
+/* .split-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+} */
+
+/* .flex-col {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.35rem;
+  width: 100%;
+} */
+
+input:invalid {
+  outline: 2px solid #ff692d;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid #6b7280;
+  margin-bottom: 14px;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 6px;
+  background-color: transparent;
+  color: white;
+}
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #ff692d; /* Change color when selected */
+}
+input[type="email"] {
+  border-bottom: 1px solid #6b7280;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 12px;
+  background-color: transparent;
+  color: white;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.border-t-transparent {
+  border-top-color: transparent;
+}
+.border-x-transparent {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.border-\[\#a2a2a2\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(162 162 162 / var(--tw-border-opacity));
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.form {
+  width: auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.button {
+  padding: 0.5rem;
+  margin-right: 20px;
+  border: 2px solid #ff692d;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 7vw;
+}
+.button:hover {
+  background-color: #ff692d;
+}
+.button:focus {
+  outline: 2px solid #ff692d;
+}
+
+

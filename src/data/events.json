@@ -1,0 +1,19 @@
+[
+  {
+    "date": "26.02.2024",
+    "themeColor": "#7A63C9",
+    "content": "Get to organize events and work with our Team. Level up your game with BCG!",
+    "tint": "#6453B366",
+    "bgImg": "/images/valoBg.png",
+    "cardLogo": "/images/valorantLogo.png"
+  },
+
+  {
+    "date": "26.02.2024",
+    "themeColor": "#EC612A",
+    "content": "Get to organize events and work with our Team. Level up your game with BCG!",
+    "tint": "#EB60294A",
+    "bgImg": "/images/bgmiBg.png",
+    "cardLogo": "/images/bgmiLogo.png"
+  }
+]

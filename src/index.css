@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --sb-track-color: #fff;
+  --sb-thumb-color: #ec612a;
+  --sb-size: 12px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  scrollbar-width: thin;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  border: 4px solid var(--sb-track-color);
+}
+
+social_1 {
+  position: absolute;
+  height: 6vh;
+  right: 27vh;
+  top: 30vh;
+}
+
+social_1:hover {
+  background-image: url("./../public/images/istg.png");
+}
